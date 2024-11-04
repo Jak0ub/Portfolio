@@ -1,0 +1,170 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('main.png') no-repeat center center fixed;
+    background-size: cover; 
+}
+
+.container {
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    opacity: 1;
+    margin-bottom: 100px;
+}
+
+h1, h2 {
+    color: #333;
+    transition: color 0.3s ease;
+}
+
+p {
+    color: #000000;
+    line-height: 1.6;
+    transition: color 0.3s ease;
+}
+
+.section {
+    margin-bottom: 30px;
+}
+
+
+.section:last-child {
+    margin-bottom: 0;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 20px;
+    margin-right: 10px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
+
+.rounded-image {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    opacity: 0;
+    transform: scale(0.5);
+}
+
+.Nickname {
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+}
+
+.label {
+    margin-bottom: 30px;
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.name {
+    font-weight: bold;
+}
+.contents {
+    transition: 0.3s;
+}
+
+.pgp {
+    transition: 0.3s;
+}
+.pgp:hover {
+    cursor: pointer;
+    padding-left: 20px;
+    font-weight: bold;  
+}
+.pgp:active {
+    user-select: all;
+}
+.contents:hover {
+    cursor: pointer;
+    padding-left: 20px;
+    font-weight: bold;
+}
+
+.button-mini {
+    display: inline-block;
+    margin-left: 10px;
+    padding: 0px 20px;
+    background-color: #007bff;
+    color: #fff;
+    opacity: 0;
+    transform: scale(0.6);
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    text-decoration: none;
+    font-weight: bold;
+    border-color: black;
+    border-radius: 33px;
+}
+.chapter {
+    transition: 0.3s;
+}
+.chapter:hover {
+    cursor: pointer;
+    padding-left: 20px;
+    font-weight: bold;
+}
+.contents:hover .button-mini {
+    transition: 0.5s;
+    opacity: 1;
+    transform: scale(1);
+}
+.button-mini:hover {
+    background-color: #0056b3;
+}
+.button-mini:active {
+    background-color: #02254b;
+}
+.subsection {
+    padding-right: 20%;
+    opacity: 0;
+    transition: 0.3s;
+    display: none;
+}
+.image {
+    opacity: 0;
+    transition: 0.3s;
+    display: none;
+    width: 20%;
+    height: auto;
+    border-radius: 10px;
+}
+.chapter:hover .image {
+    cursor: pointer;
+    display: inline-block;  
+    margin-left: 14%;
+    opacity: 1;
+}
+.chapter:hover .image:hover {
+    margin-left: 19%;
+}
+.chapter:hover .subsection:hover {
+    padding-right: 15%;
+    cursor: pointer;
+    padding-left: 5%;
+    font-weight: bold;
+}
+.chapter:hover .subsection{
+    transition: 0.3s;
+    opacity: 1;
+    font-weight: normal;
+    margin-left: 14%;
+    display: block;
+}
