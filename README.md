@@ -1,3 +1,4 @@
+![Main image](https://github.com/Jak0ub/Jak0ub/blob/main/portfolio.png)
 # Portfolio Project
 ### Simple HTML/CSS code to help you with making your portfolio
 ## SHA-256 of zip file
